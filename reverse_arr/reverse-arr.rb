@@ -8,3 +8,4 @@ end
 
 puts str_count('hello', 'o') # Output=> 1
 puts str_count('hello', 'l') # Output => 2
+puts str_count('', 'l') # Output => 2
