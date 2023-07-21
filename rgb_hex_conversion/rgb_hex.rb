@@ -16,7 +16,7 @@ end
 
 puts rgb(255, 255, 255) # returns FFFFFF
 puts rgb(255, 255, 300) # returns FFFFFF
-puts rgb(0,0,0) # returns 000000
-puts rgb(142,-75,299) # returns 8E00FF
-puts rgb(148, 0, 211) # returns 9400D3
-puts rgb(110, 6, 255) # returns 6E06FF
+puts rgb(0,0,0)         # returns 000000
+puts rgb(142,-75,299)   # returns 8E00FF
+puts rgb(148, 0, 211)   # returns 9400D3
+puts rgb(110, 6, 255)   # returns 6E06FF
