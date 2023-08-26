@@ -1,8 +1,0 @@
-def stringy(size)
-  new_str = ''
-  size.times {|x| (x % 2 == 0) ? new_str += '1' : new_str += '0' }
-  new_str
-end
-
-puts stringy(6)
-  
