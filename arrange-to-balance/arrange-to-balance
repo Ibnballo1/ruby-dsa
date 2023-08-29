@@ -1,0 +1,17 @@
+Problem Statement:
+
+You are given a string containing only the characters "(" and ")". Your task is to determine if the string can be rearranged to form a balanced pair of brackets.
+
+A pair of brackets is considered balanced if for every opening bracket "(" there is a corresponding closing bracket ")".
+
+Write a function can_rearrange_to_balance(string) that takes a string as input and returns true if the brackets can be rearranged to form balanced pairs and false otherwise.
+
+Example Input and Output:
+
+can_rearrange_to_balance("())(") should return true because the brackets can be rearranged to form balanced pairs as "()()".
+can_rearrange_to_balance(")(") should return true because the brackets can be rearranged to form a balanced pair as "()".
+Constraints:
+
+The input string will consist of at most 10^4 characters.
+The input string will only contain "(" and ")" characters.
+This coding challenge tests your ability to determine whether it's possible to rearrange the brackets in a string to make them balanced.
