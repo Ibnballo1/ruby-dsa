@@ -1,14 +1,14 @@
 def valid_paren(paren_str)
-  str_len = paren_str.length
-  left_paren_counter = 0
-  right_paren_counter = 0
-
-  if (str_len % 2 != 0)
-    return 'false'
-  else
-    paren_str.each_char {|chr| (chr == '(') ? left_paren_counter += 1 : right_paren_counter += 1}
-    (left_paren_counter == right_paren_counter) ? 'true' : 'false'
+  left_bra, right_bra = 0, 0
+  paren_str.each_char do |chr|
+    if (chr == ')')
+      right_bra += 1
+      return false if (right_bra > left_bra)
+    else
+      left_bra += 1
+    end
   end
+  right_bra == left_bra
 end
 
 p valid_paren('()') # => return true
