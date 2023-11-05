@@ -1,6 +1,7 @@
+require 'date'
+
 def is_leap_year(year)
-  #your code here
-  ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
+  DateTime.leap? year
 end
 
 p is_leap_year(2020) # => true
